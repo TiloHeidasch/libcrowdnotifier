@@ -3,7 +3,7 @@
 name: Publish npm Package
 
 on:
-  create:
+  push:
     tags:
       - 'v*'
 
