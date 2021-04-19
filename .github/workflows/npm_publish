@@ -4,8 +4,9 @@ name: Publish npm Package
 
 on:
   push:
-    tags:
-      - v*
+    # Pattern matched against refs/tags
+    tags:        
+      - '*'           # Push events to every tag not containing /
 
 jobs:
   build:
