@@ -5,7 +5,7 @@ name: Publish npm Package
 on:
   push:
     tags:
-      - 'v*'
+      - v*
 
 jobs:
   build:
